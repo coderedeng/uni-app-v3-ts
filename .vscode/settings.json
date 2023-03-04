@@ -1,0 +1,13 @@
+{
+    // 参考：https://blog.csdn.net/weixin_46238462/article/details/125867532
+
+    "editor.defaultFormatter": "esbenp.prettier-vscode", // 定义一个默认格式化程序, 该格式化程序优先于所有其他格式化程序设置。必须是提供格式化程序的扩展的标识符。
+    "editor.formatOnSave": true, //在保存时格式化文件。格式化程序必须可用，延迟后文件不能保存，并且编辑器不能关闭。
+	"editor.detectIndentation": false, // 控制在基于文件内容打开文件时是否自动检测 #editor.tabSize# 和 #editor.insertSpaces#。
+	"editor.tabSize": 4,
+    "editor.codeActionsOnSave": {
+      "source.fixAll": true, // 控制是否应在文件保存时运行自动修复操作。
+      "source.fixAll.eslint": true,
+      "source.fixAll.stylelint": true
+    }, // 要在保存时运行的代码操作种类。
+}  
